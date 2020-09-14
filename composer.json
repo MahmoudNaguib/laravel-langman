@@ -1,0 +1,40 @@
+{
+    "name": "sararabie/laravel-langman",
+    "description": "Manage language files with ease.",
+    "keywords": ["laravel", "localization", "multilingual"],
+    "homepage": "https://github.com/sararabie/laravel-langman",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sara Rabie",
+            "email": "sara.rabie21@gmail.com",
+            "homepage": "https://sararabie.github.io"
+        }
+    ],
+    "require": {
+        "php": "^5.5.9 || ^7.0",
+        "illuminate/support": "~5.1 | ^6.0 | ^7.0|^8.0",
+        "illuminate/console": "~5.1 | ^6.0 | ^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "^4.8 || ^5.0",
+        "orchestra/testbench": "~3.0",
+        "orchestra/database": "~3.0",
+        "mockery/mockery": "~0.9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sararabie\\Langman\\": "src"
+        },
+        "classmap": [
+            "tests"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sararabie\\Langman\\LangmanServiceProvider"
+            ]
+        }
+    }
+}
