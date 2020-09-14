@@ -1,11 +1,11 @@
 <?php
 
-namespace Sararabie\Langman\Commands;
+namespace Langman\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Sararabie\Langman\Manager;
+use Langman\Manager;
 
 class RenameCommand extends Command
 {
@@ -26,7 +26,7 @@ class RenameCommand extends Command
     /**
      * The Languages manager instance.
      *
-     * @var \Sararabie\LangMan\Manager
+     * @var \Langman\Manager
      */
     private $manager;
 
@@ -40,7 +40,7 @@ class RenameCommand extends Command
     /**
      * ListCommand constructor.
      *
-     * @param \Sararabie\LangMan\Manager $manager
+     * @param \Langman\Manager $manager
      * @return void
      */
     public function __construct(Manager $manager)

@@ -27,14 +27,14 @@ $ composer require sararabie/laravel-langman
 Once done, add the following line in your providers array of `config/app.php`:
 
 ```php
-Sararabie\Langman\LangmanServiceProvider::class
+Langman\LangmanServiceProvider::class
 ```
 
 This package has a single configuration option that points to the `resources/lang` directory, if only you need to change
 the path then publish the config file:
 
 ```
-php artisan vendor:publish --provider="Sararabie\Langman\LangmanServiceProvider"
+php artisan vendor:publish --provider="Langman\LangmanServiceProvider"
 ```
 
 ## Usage

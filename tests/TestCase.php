@@ -6,7 +6,7 @@ abstract class TestCase extends Orchestra\Testbench\TestCase
 
     protected function getPackageProviders($app)
     {
-        return [\Sararabie\Langman\LangmanServiceProvider::class];
+        return [\Langman\LangmanServiceProvider::class];
     }
 
     protected function getEnvironmentSetUp($app)

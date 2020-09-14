@@ -1,6 +1,6 @@
 <?php
 
-namespace Sararabie\Langman;
+namespace Langman;
 
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Filesystem\Filesystem;

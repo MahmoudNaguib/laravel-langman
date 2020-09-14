@@ -1,6 +1,6 @@
 <?php
 
-namespace Sararabie\Langman;
+namespace Langman;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Filesystem\Filesystem;
@@ -30,13 +30,13 @@ class LangmanServiceProvider extends ServiceProvider
         });
 
         $this->commands([
-            \Sararabie\Langman\Commands\MissingCommand::class,
-            \Sararabie\Langman\Commands\RemoveCommand::class,
-            \Sararabie\Langman\Commands\TransCommand::class,
-            \Sararabie\Langman\Commands\ShowCommand::class,
-            \Sararabie\Langman\Commands\FindCommand::class,
-            \Sararabie\Langman\Commands\SyncCommand::class,
-            \Sararabie\Langman\Commands\RenameCommand::class,
+            \Langman\Commands\MissingCommand::class,
+            \Langman\Commands\RemoveCommand::class,
+            \Langman\Commands\TransCommand::class,
+            \Langman\Commands\ShowCommand::class,
+            \Langman\Commands\FindCommand::class,
+            \Langman\Commands\SyncCommand::class,
+            \Langman\Commands\RenameCommand::class,
         ]);
     }
 }

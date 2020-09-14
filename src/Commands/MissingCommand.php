@@ -1,10 +1,10 @@
 <?php
 
-namespace Sararabie\Langman\Commands;
+namespace Langman\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
-use Sararabie\Langman\Manager;
+use Langman\Manager;
 
 class MissingCommand extends Command
 {
@@ -25,7 +25,7 @@ class MissingCommand extends Command
     /**
      * The Languages manager instance.
      *
-     * @var \Sararabie\LangMan\Manager
+     * @var \Langman\Manager
      */
     private $manager;
 
@@ -39,7 +39,7 @@ class MissingCommand extends Command
     /**
      * ListCommand constructor.
      *
-     * @param \Sararabie\LangMan\Manager $manager
+     * @param \Langman\Manager $manager
      * @return void
      */
     public function __construct(Manager $manager)

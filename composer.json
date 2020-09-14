@@ -1,14 +1,14 @@
 {
-    "name": "sararabie/laravel-langman",
+    "name": "mnaguib/laravel-langman",
     "description": "Manage language files with ease.",
     "keywords": ["laravel", "localization", "multilingual"],
-    "homepage": "https://github.com/sararabie/laravel-langman",
+    "homepage": "https://github.com/MahmoudNaguib/laravel-langman",
     "license": "MIT",
     "authors": [
         {
-            "name": "Sara Rabie",
-            "email": "sara.rabie21@gmail.com",
-            "homepage": "https://sararabie.github.io"
+            "name": "Mahmoud Naguib",
+            "email": "nagooba@gmail.com",
+            "homepage": "http://mahmoudnaguib.github.io"
         }
     ],
     "require": {
@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sararabie\\Langman\\": "src"
+            "Langman\\": "src"
         },
         "classmap": [
             "tests"
