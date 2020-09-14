@@ -33,7 +33,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sararabie\\Langman\\LangmanServiceProvider"
+                "Langman\\LangmanServiceProvider"
             ]
         }
     }
